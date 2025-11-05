@@ -1,0 +1,5 @@
+# File di sistema di macOS
+.DS_Store
+
+# Cartella di configurazione di Obsidian
+.obsidian/

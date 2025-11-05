@@ -1,0 +1,446 @@
+------------------------ giorno LUNEDI alle 16 gruppo RAGAZZI ------------------------
+r1, r10, r11, r13, r14, r15, r16, r17, r18, r19, r2, r20, r21, r22, r24, r25, r27, r3, r4, r5, r6, r7
+****************** Randori per PESO ******************
+|r11 54Kg| VS |r15 54Kg|
+|r11 54Kg| VS |r4 55Kg|
+|r14 44Kg| VS |r18 44Kg|
+|r15 54Kg| VS |r4 55Kg|
+|r16 67Kg| VS |r19 68Kg|
+|r17 65Kg| VS |r27 65Kg|
+|r19 68Kg| VS |r10 69Kg|
+|r2 64Kg| VS |r17 65Kg|
+|r2 64Kg| VS |r24 64Kg|
+|r2 64Kg| VS |r25 64Kg|
+|r2 64Kg| VS |r27 65Kg|
+|r20 50Kg| VS |r6 50Kg|
+|r21 40Kg| VS |r22 40Kg|
+|r24 64Kg| VS |r17 65Kg|
+|r24 64Kg| VS |r25 64Kg|
+|r24 64Kg| VS |r27 65Kg|
+|r25 64Kg| VS |r17 65Kg|
+|r25 64Kg| VS |r27 65Kg|
+|r3 56Kg| VS |r7 56Kg|
+|r4 55Kg| VS |r3 56Kg|
+|r4 55Kg| VS |r7 56Kg|
+
+****************** Randori per PESO e CINTURA ********
+|r22 40Kg blu| VS |r21 40Kg marrone|
+
+
+------------------------ giorno LUNEDI alle 18 gruppo BAMBINI ------------------------
+b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b2, b21, b23, b24, b26, b27, b28, b29, b3, b32, b33, b35, b37, b38, b4, b40, b5, b6, b8, b9
+****************** Randori per PESO ******************
+|b10 20Kg| VS |b17 20Kg|
+|b10 20Kg| VS |b24 21Kg|
+|b10 20Kg| VS |b29 21Kg|
+|b10 20Kg| VS |b32 20Kg|
+|b11 33Kg| VS |b13 34Kg|
+|b12 35Kg| VS |b5 36Kg|
+|b13 34Kg| VS |b12 35Kg|
+|b14 39Kg| VS |b33 39Kg|
+|b15 23Kg| VS |b16 23Kg|
+|b15 23Kg| VS |b2 23Kg|
+|b15 23Kg| VS |b38 24Kg|
+|b15 23Kg| VS |b9 23Kg|
+|b16 23Kg| VS |b2 23Kg|
+|b16 23Kg| VS |b38 24Kg|
+|b16 23Kg| VS |b9 23Kg|
+|b17 20Kg| VS |b24 21Kg|
+|b17 20Kg| VS |b29 21Kg|
+|b17 20Kg| VS |b32 20Kg|
+|b18 29Kg| VS |b3 30Kg|
+|b19 19Kg| VS |b10 20Kg|
+|b19 19Kg| VS |b17 20Kg|
+|b19 19Kg| VS |b32 20Kg|
+|b19 19Kg| VS |b37 19Kg|
+|b19 19Kg| VS |b6 19Kg|
+|b2 23Kg| VS |b38 24Kg|
+|b2 23Kg| VS |b9 23Kg|
+|b21 38Kg| VS |b14 39Kg|
+|b21 38Kg| VS |b33 39Kg|
+|b21 38Kg| VS |b35 38Kg|
+|b23 22Kg| VS |b15 23Kg|
+|b23 22Kg| VS |b16 23Kg|
+|b23 22Kg| VS |b2 23Kg|
+|b23 22Kg| VS |b4 22Kg|
+|b23 22Kg| VS |b8 22Kg|
+|b23 22Kg| VS |b9 23Kg|
+|b24 21Kg| VS |b23 22Kg|
+|b24 21Kg| VS |b29 21Kg|
+|b24 21Kg| VS |b4 22Kg|
+|b24 21Kg| VS |b8 22Kg|
+|b26 13Kg| VS |b40 14Kg|
+|b27 12Kg| VS |b26 13Kg|
+|b29 21Kg| VS |b23 22Kg|
+|b29 21Kg| VS |b4 22Kg|
+|b29 21Kg| VS |b8 22Kg|
+|b32 20Kg| VS |b24 21Kg|
+|b32 20Kg| VS |b29 21Kg|
+|b35 38Kg| VS |b14 39Kg|
+|b35 38Kg| VS |b33 39Kg|
+|b37 19Kg| VS |b10 20Kg|
+|b37 19Kg| VS |b17 20Kg|
+|b37 19Kg| VS |b32 20Kg|
+|b37 19Kg| VS |b6 19Kg|
+|b38 24Kg| VS |b28 25Kg|
+|b4 22Kg| VS |b15 23Kg|
+|b4 22Kg| VS |b16 23Kg|
+|b4 22Kg| VS |b2 23Kg|
+|b4 22Kg| VS |b8 22Kg|
+|b4 22Kg| VS |b9 23Kg|
+|b6 19Kg| VS |b10 20Kg|
+|b6 19Kg| VS |b17 20Kg|
+|b6 19Kg| VS |b32 20Kg|
+|b8 22Kg| VS |b15 23Kg|
+|b8 22Kg| VS |b16 23Kg|
+|b8 22Kg| VS |b2 23Kg|
+|b8 22Kg| VS |b9 23Kg|
+|b9 23Kg| VS |b38 24Kg|
+
+****************** Randori per PESO e CINTURA ********
+|b14 39Kg arancione| VS |b33 39Kg verde|
+|b16 23Kg bianca| VS |b9 23Kg bianca|
+|b2 23Kg marrone| VS |b15 23Kg nera|
+|b23 22Kg verde| VS |b4 22Kg blu|
+|b29 21Kg arancione| VS |b24 21Kg verde|
+
+
+------------------------ giorno LUNEDI alle 20 gruppo ADULTI ------------------------
+a11, a12, a13, a14, a16, a19, a2, a22, a24, a25, a3, a5, a6, a8, a9
+****************** Randori per PESO ******************
+|a11 50Kg| VS |a14 50Kg|
+|a12 64Kg| VS |a16 64Kg|
+|a2 53Kg| VS |a24 53Kg|
+|a22 52Kg| VS |a2 53Kg|
+|a22 52Kg| VS |a24 53Kg|
+|a25 89Kg| VS |a5 90Kg|
+|a3 63Kg| VS |a12 64Kg|
+|a3 63Kg| VS |a16 64Kg|
+
+****************** Randori per PESO e CINTURA ********
+|a11 50Kg blu| VS |a14 50Kg marrone|
+|a12 64Kg marrone| VS |a16 64Kg nera|
+
+
+------------------------ giorno MARTEDI alle 16 gruppo RAGAZZI ------------------------
+r1, r12, r13, r14, r15, r16, r2, r21, r23, r24, r26, r28, r29, r3, r30, r31, r33, r4, r5, r7, r8, r9
+****************** Randori per PESO ******************
+|r12 55Kg| VS |r3 56Kg|
+|r12 55Kg| VS |r33 55Kg|
+|r12 55Kg| VS |r4 55Kg|
+|r12 55Kg| VS |r7 56Kg|
+|r13 59Kg| VS |r29 59Kg|
+|r14 44Kg| VS |r30 45Kg|
+|r15 54Kg| VS |r12 55Kg|
+|r15 54Kg| VS |r33 55Kg|
+|r15 54Kg| VS |r4 55Kg|
+|r15 54Kg| VS |r8 54Kg|
+|r16 67Kg| VS |r31 67Kg|
+|r2 64Kg| VS |r24 64Kg|
+|r21 40Kg| VS |r9 40Kg|
+|r26 53Kg| VS |r15 54Kg|
+|r26 53Kg| VS |r8 54Kg|
+|r3 56Kg| VS |r7 56Kg|
+|r33 55Kg| VS |r3 56Kg|
+|r33 55Kg| VS |r4 55Kg|
+|r33 55Kg| VS |r7 56Kg|
+|r4 55Kg| VS |r3 56Kg|
+|r4 55Kg| VS |r7 56Kg|
+|r5 48Kg| VS |r23 49Kg|
+|r8 54Kg| VS |r12 55Kg|
+|r8 54Kg| VS |r33 55Kg|
+|r8 54Kg| VS |r4 55Kg|
+
+****************** Randori per PESO e CINTURA ********
+|r16 67Kg bianca| VS |r31 67Kg gialla|
+|r29 59Kg bianca| VS |r13 59Kg gialla|
+|r33 55Kg marrone| VS |r4 55Kg nera|
+|r9 40Kg blu| VS |r21 40Kg marrone|
+
+
+------------------------ giorno MARTEDI alle 18 gruppo RAGAZZI ------------------------
+r17, r19, r25, r27, r32, r34, r6
+****************** Randori per PESO ******************
+|r17 65Kg| VS |r27 65Kg|
+|r25 64Kg| VS |r17 65Kg|
+|r25 64Kg| VS |r27 65Kg|
+
+
+------------------------ giorno MARTEDI alle 20 gruppo ADULTI ------------------------
+a10, a11, a12, a16, a17, a2, a21, a22, a23, a24, a3, a5, a6, a7, a8
+****************** Randori per PESO ******************
+|a11 50Kg| VS |a21 51Kg|
+|a12 64Kg| VS |a16 64Kg|
+|a2 53Kg| VS |a24 53Kg|
+|a2 53Kg| VS |a7 53Kg|
+|a21 51Kg| VS |a22 52Kg|
+|a22 52Kg| VS |a2 53Kg|
+|a22 52Kg| VS |a24 53Kg|
+|a22 52Kg| VS |a7 53Kg|
+|a24 53Kg| VS |a7 53Kg|
+|a3 63Kg| VS |a12 64Kg|
+|a3 63Kg| VS |a16 64Kg|
+|a6 92Kg| VS |a17 93Kg|
+|a8 97Kg| VS |a23 98Kg|
+
+****************** Randori per PESO e CINTURA ********
+|a12 64Kg marrone| VS |a16 64Kg nera|
+|a2 53Kg verde| VS |a7 53Kg blu|
+|a7 53Kg blu| VS |a24 53Kg marrone|
+
+
+------------------------ giorno MERCOLEDI alle 16 gruppo BAMBINI ------------------------
+b1, b12, b19, b20, b21, b22, b25, b26, b27, b28, b30, b31, b32, b34, b35, b36, b37, b38, b39, b40, b6, b7
+****************** Randori per PESO ******************
+|b1 15Kg| VS |b36 15Kg|
+|b12 35Kg| VS |b39 35Kg|
+|b19 19Kg| VS |b32 20Kg|
+|b19 19Kg| VS |b37 19Kg|
+|b19 19Kg| VS |b6 19Kg|
+|b19 19Kg| VS |b7 19Kg|
+|b20 24Kg| VS |b28 25Kg|
+|b20 24Kg| VS |b38 24Kg|
+|b21 38Kg| VS |b35 38Kg|
+|b26 13Kg| VS |b40 14Kg|
+|b27 12Kg| VS |b26 13Kg|
+|b31 10Kg| VS |b34 10Kg|
+|b32 20Kg| VS |b30 21Kg|
+|b37 19Kg| VS |b32 20Kg|
+|b37 19Kg| VS |b6 19Kg|
+|b37 19Kg| VS |b7 19Kg|
+|b38 24Kg| VS |b28 25Kg|
+|b40 14Kg| VS |b1 15Kg|
+|b40 14Kg| VS |b36 15Kg|
+|b6 19Kg| VS |b32 20Kg|
+|b6 19Kg| VS |b7 19Kg|
+|b7 19Kg| VS |b32 20Kg|
+
+****************** Randori per PESO e CINTURA ********
+|b1 15Kg gialla| VS |b36 15Kg arancione|
+|b12 35Kg blu| VS |b39 35Kg marrone|
+|b34 10Kg bianca| VS |b31 10Kg gialla|
+|b6 19Kg verde| VS |b7 19Kg blu|
+
+
+------------------------ giorno MERCOLEDI alle 18 gruppo RAGAZZI ------------------------
+r10, r11, r12, r18, r20, r22, r23, r25, r26, r27, r28, r29, r30, r31, r32, r33, r34, r8, r9
+****************** Randori per PESO ******************
+|r10 69Kg| VS |r28 69Kg|
+|r11 54Kg| VS |r12 55Kg|
+|r11 54Kg| VS |r33 55Kg|
+|r11 54Kg| VS |r8 54Kg|
+|r12 55Kg| VS |r33 55Kg|
+|r18 44Kg| VS |r30 45Kg|
+|r22 40Kg| VS |r32 41Kg|
+|r22 40Kg| VS |r9 40Kg|
+|r23 49Kg| VS |r20 50Kg|
+|r25 64Kg| VS |r27 65Kg|
+|r26 53Kg| VS |r11 54Kg|
+|r26 53Kg| VS |r8 54Kg|
+|r30 45Kg| VS |r34 46Kg|
+|r8 54Kg| VS |r12 55Kg|
+|r8 54Kg| VS |r33 55Kg|
+|r9 40Kg| VS |r32 41Kg|
+
+****************** Randori per PESO e CINTURA ********
+|r10 69Kg gialla| VS |r28 69Kg arancione|
+|r11 54Kg verde| VS |r8 54Kg verde|
+|r22 40Kg blu| VS |r9 40Kg blu|
+
+
+------------------------ giorno MERCOLEDI alle 20 gruppo ADULTI ------------------------
+a1, a10, a13, a15, a17, a18, a19, a20, a21, a23, a25, a26, a4, a6, a9
+****************** Randori per PESO ******************
+|a15 57Kg| VS |a9 58Kg|
+|a18 77Kg| VS |a19 78Kg|
+|a19 78Kg| VS |a1 79Kg|
+|a6 92Kg| VS |a17 93Kg|
+
+
+------------------------ giorno GIOVEDI alle 16 gruppo RAGAZZI ------------------------
+r1, r10, r12, r13, r14, r15, r16, r18, r19, r20, r21, r22, r24, r26, r28, r29, r31, r32, r33, r4, r5, r9
+****************** Randori per PESO ******************
+|r10 69Kg| VS |r28 69Kg|
+|r12 55Kg| VS |r33 55Kg|
+|r12 55Kg| VS |r4 55Kg|
+|r13 59Kg| VS |r29 59Kg|
+|r14 44Kg| VS |r18 44Kg|
+|r15 54Kg| VS |r12 55Kg|
+|r15 54Kg| VS |r33 55Kg|
+|r15 54Kg| VS |r4 55Kg|
+|r16 67Kg| VS |r19 68Kg|
+|r16 67Kg| VS |r31 67Kg|
+|r19 68Kg| VS |r10 69Kg|
+|r19 68Kg| VS |r28 69Kg|
+|r21 40Kg| VS |r22 40Kg|
+|r21 40Kg| VS |r32 41Kg|
+|r21 40Kg| VS |r9 40Kg|
+|r22 40Kg| VS |r32 41Kg|
+|r22 40Kg| VS |r9 40Kg|
+|r26 53Kg| VS |r15 54Kg|
+|r31 67Kg| VS |r19 68Kg|
+|r33 55Kg| VS |r4 55Kg|
+|r9 40Kg| VS |r32 41Kg|
+
+****************** Randori per PESO e CINTURA ********
+|r10 69Kg gialla| VS |r28 69Kg arancione|
+|r16 67Kg bianca| VS |r31 67Kg gialla|
+|r22 40Kg blu| VS |r21 40Kg marrone|
+|r22 40Kg blu| VS |r9 40Kg blu|
+|r29 59Kg bianca| VS |r13 59Kg gialla|
+|r33 55Kg marrone| VS |r4 55Kg nera|
+|r9 40Kg blu| VS |r21 40Kg marrone|
+
+
+------------------------ giorno GIOVEDI alle 18 gruppo RAGAZZI ------------------------
+r11, r17, r2, r23, r3, r30, r34, r6, r7, r8
+****************** Randori per PESO ******************
+|r11 54Kg| VS |r8 54Kg|
+|r2 64Kg| VS |r17 65Kg|
+|r23 49Kg| VS |r6 50Kg|
+|r3 56Kg| VS |r7 56Kg|
+|r30 45Kg| VS |r34 46Kg|
+
+****************** Randori per PESO e CINTURA ********
+|r11 54Kg verde| VS |r8 54Kg verde|
+
+
+------------------------ giorno GIOVEDI alle 20 gruppo ADULTI ------------------------
+a1, a13, a14, a15, a17, a18, a19, a20, a21, a23, a26, a4, a6, a7, a9
+****************** Randori per PESO ******************
+|a14 50Kg| VS |a21 51Kg|
+|a15 57Kg| VS |a9 58Kg|
+|a18 77Kg| VS |a19 78Kg|
+|a19 78Kg| VS |a1 79Kg|
+|a6 92Kg| VS |a17 93Kg|
+
+
+------------------------ giorno VENERDI alle 16 gruppo ADULTI ------------------------
+a1, a10, a18, a20, a25, a26, a8
+
+------------------------ giorno VENERDI alle 18 gruppo BAMBINI ------------------------
+b1, b10, b11, b12, b13, b14, b15, b16, b17, b18, b2, b20, b22, b23, b24, b25, b29, b3, b30, b31, b33, b34, b36, b39, b4, b5, b6, b7, b8, b9
+****************** Randori per PESO ******************
+|b1 15Kg| VS |b36 15Kg|
+|b10 20Kg| VS |b17 20Kg|
+|b10 20Kg| VS |b24 21Kg|
+|b10 20Kg| VS |b29 21Kg|
+|b10 20Kg| VS |b30 21Kg|
+|b11 33Kg| VS |b13 34Kg|
+|b12 35Kg| VS |b39 35Kg|
+|b12 35Kg| VS |b5 36Kg|
+|b13 34Kg| VS |b12 35Kg|
+|b13 34Kg| VS |b39 35Kg|
+|b14 39Kg| VS |b22 40Kg|
+|b14 39Kg| VS |b33 39Kg|
+|b15 23Kg| VS |b16 23Kg|
+|b15 23Kg| VS |b2 23Kg|
+|b15 23Kg| VS |b20 24Kg|
+|b15 23Kg| VS |b9 23Kg|
+|b16 23Kg| VS |b2 23Kg|
+|b16 23Kg| VS |b20 24Kg|
+|b16 23Kg| VS |b9 23Kg|
+|b17 20Kg| VS |b24 21Kg|
+|b17 20Kg| VS |b29 21Kg|
+|b17 20Kg| VS |b30 21Kg|
+|b18 29Kg| VS |b3 30Kg|
+|b2 23Kg| VS |b20 24Kg|
+|b2 23Kg| VS |b9 23Kg|
+|b23 22Kg| VS |b15 23Kg|
+|b23 22Kg| VS |b16 23Kg|
+|b23 22Kg| VS |b2 23Kg|
+|b23 22Kg| VS |b4 22Kg|
+|b23 22Kg| VS |b8 22Kg|
+|b23 22Kg| VS |b9 23Kg|
+|b24 21Kg| VS |b23 22Kg|
+|b24 21Kg| VS |b29 21Kg|
+|b24 21Kg| VS |b30 21Kg|
+|b24 21Kg| VS |b4 22Kg|
+|b24 21Kg| VS |b8 22Kg|
+|b29 21Kg| VS |b23 22Kg|
+|b29 21Kg| VS |b30 21Kg|
+|b29 21Kg| VS |b4 22Kg|
+|b29 21Kg| VS |b8 22Kg|
+|b30 21Kg| VS |b23 22Kg|
+|b30 21Kg| VS |b4 22Kg|
+|b30 21Kg| VS |b8 22Kg|
+|b31 10Kg| VS |b34 10Kg|
+|b33 39Kg| VS |b22 40Kg|
+|b39 35Kg| VS |b5 36Kg|
+|b4 22Kg| VS |b15 23Kg|
+|b4 22Kg| VS |b16 23Kg|
+|b4 22Kg| VS |b2 23Kg|
+|b4 22Kg| VS |b8 22Kg|
+|b4 22Kg| VS |b9 23Kg|
+|b6 19Kg| VS |b10 20Kg|
+|b6 19Kg| VS |b17 20Kg|
+|b6 19Kg| VS |b7 19Kg|
+|b7 19Kg| VS |b10 20Kg|
+|b7 19Kg| VS |b17 20Kg|
+|b8 22Kg| VS |b15 23Kg|
+|b8 22Kg| VS |b16 23Kg|
+|b8 22Kg| VS |b2 23Kg|
+|b8 22Kg| VS |b9 23Kg|
+|b9 23Kg| VS |b20 24Kg|
+
+****************** Randori per PESO e CINTURA ********
+|b1 15Kg gialla| VS |b36 15Kg arancione|
+|b12 35Kg blu| VS |b39 35Kg marrone|
+|b14 39Kg arancione| VS |b33 39Kg verde|
+|b16 23Kg bianca| VS |b9 23Kg bianca|
+|b2 23Kg marrone| VS |b15 23Kg nera|
+|b23 22Kg verde| VS |b4 22Kg blu|
+|b29 21Kg arancione| VS |b24 21Kg verde|
+|b34 10Kg bianca| VS |b31 10Kg gialla|
+|b6 19Kg verde| VS |b7 19Kg blu|
+
+
+------------------------ giorno VENERDI alle 20 gruppo ADULTI ------------------------
+a11, a12, a13, a14, a15, a16, a19, a2, a21, a22, a24, a3, a4, a5, a7
+****************** Randori per PESO ******************
+|a11 50Kg| VS |a14 50Kg|
+|a11 50Kg| VS |a21 51Kg|
+|a12 64Kg| VS |a16 64Kg|
+|a14 50Kg| VS |a21 51Kg|
+|a2 53Kg| VS |a24 53Kg|
+|a2 53Kg| VS |a7 53Kg|
+|a21 51Kg| VS |a22 52Kg|
+|a22 52Kg| VS |a2 53Kg|
+|a22 52Kg| VS |a24 53Kg|
+|a22 52Kg| VS |a7 53Kg|
+|a24 53Kg| VS |a7 53Kg|
+|a3 63Kg| VS |a12 64Kg|
+|a3 63Kg| VS |a16 64Kg|
+
+****************** Randori per PESO e CINTURA ********
+|a11 50Kg blu| VS |a14 50Kg marrone|
+|a12 64Kg marrone| VS |a16 64Kg nera|
+|a2 53Kg verde| VS |a7 53Kg blu|
+|a7 53Kg blu| VS |a24 53Kg marrone|
+
+
+------------------------ giorno SABATO alle 8 gruppo ADULTI ------------------------
+a1, a11, a14, a15, a16, a17, a24, a25, a26, a4, a5, a6, a9
+****************** Randori per PESO ******************
+|a11 50Kg| VS |a14 50Kg|
+|a15 57Kg| VS |a9 58Kg|
+|a25 89Kg| VS |a5 90Kg|
+|a6 92Kg| VS |a17 93Kg|
+
+****************** Randori per PESO e CINTURA ********
+|a11 50Kg blu| VS |a14 50Kg marrone|
+
+
+------------------------ giorno SABATO alle 10 gruppo ADULTI ------------------------
+a10, a12, a18, a2, a20, a22, a23, a3, a7, a8
+****************** Randori per PESO ******************
+|a2 53Kg| VS |a7 53Kg|
+|a22 52Kg| VS |a2 53Kg|
+|a22 52Kg| VS |a7 53Kg|
+|a3 63Kg| VS |a12 64Kg|
+|a8 97Kg| VS |a23 98Kg|
+
+****************** Randori per PESO e CINTURA ********
+|a2 53Kg verde| VS |a7 53Kg blu|
+
+
