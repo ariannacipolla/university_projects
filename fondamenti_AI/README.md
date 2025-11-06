@@ -4,9 +4,9 @@ Questo documento descrive i passaggi necessari per installare e configurare le l
 
 ## Prerequisiti
 
-Python e pip (il gestore di pacchetti Python) installati.
+- Python e pip (il gestore di pacchetti Python) installati.
 
-Un account Kaggle valido.
+- Un account Kaggle valido.
 
 ### 1. Installazione dei Pacchetti
 
@@ -23,15 +23,15 @@ pip install kagglehub
 
 Per permettere al tuo codice di autenticarsi con il tuo account Kaggle, hai bisogno di un token API.
 
-Accedi a Kaggle: Vai su https://www.kaggle.com/ ed effettua l'accesso.
+- Accedi a Kaggle: Vai su https://www.kaggle.com/ ed effettua l'accesso.
 
-Vai al tuo Profilo: Clicca sulla tua immagine del profilo in alto a destra e seleziona "Your Profile".
+- Vai al tuo Profilo: Clicca sulla tua immagine del profilo in alto a destra e seleziona "Your Profile".
 
-Impostazioni Account: Naviga fino alla scheda "Account".
+- Impostazioni Account: Naviga fino alla scheda "Account".
 
-Genera Token: Scorri verso il basso fino alla sezione "API" e clicca sul pulsante "Create New Token".
+- Genera Token: Scorri verso il basso fino alla sezione "API" e clicca sul pulsante "Create New Token".
 
-Il tuo browser scaricherà immediatamente un file chiamato `kaggle.json`.
+- Il tuo browser scaricherà immediatamente un file chiamato `kaggle.json`.
 
 **Importante**: Tratta questo file come una password. Contiene le tue credenziali segrete e non dovrebbe mai essere condiviso pubblicamente.
 
