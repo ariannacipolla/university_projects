@@ -1,0 +1,545 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 2.0 (March 8, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
+	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
+	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
+]{beamer}
+
+\graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
+
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule for better rules in tables
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{listings}
+\lstset{
+	showtabs = false,
+	commentstyle=\color{blue!30!white}\small\itshape,
+	tabsize = 4,
+	showspaces = false,
+	language=C, 
+	basicstyle=\ttfamily, 
+	keywordstyle=\color{blue},
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{siunitx}
+
+%----------------------------------------------------------------------------------------
+%	SELECT LAYOUT THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of default layout themes which change the colors and layouts of slides. Below is a list of all themes available, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+%----------------------------------------------------------------------------------------
+%	SELECT COLOR THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{monarca}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{spruce}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%----------------------------------------------------------------------------------------
+%	SELECT FONT THEME & FONTS
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with several font themes to easily change the fonts used in various parts of the presentation. Review the comments beside each one to decide if you would like to use it. Note that additional options can be specified for several of these font themes, consult the beamer documentation for more information.
+
+\usefonttheme{default} % Typeset using the default sans serif font
+%\usefonttheme{serif} % Typeset using the default serif font (make sure a sans font isn't being set as the default font if you use this option!)
+%\usefonttheme{structurebold} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in bold
+%\usefonttheme{structureitalicserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in italic serif
+%\usefonttheme{structuresmallcapsserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in small caps serif
+
+%------------------------------------------------
+
+%\usepackage{mathptmx} % Use the Times font for serif text
+%\usepackage{palatino} % Use the Palatino font for serif text
+
+%\usepackage{helvet} % Use the Helvetica font for sans serif text
+%\usepackage[default]{opensans} % Use the Open Sans font for sans serif text
+%\usepackage[default]{FiraSans} % Use the Fira Sans font for sans serif text
+%\usepackage[default]{lato} % Use the Lato font for sans serif text
+
+%----------------------------------------------------------------------------------------
+%	SELECT INNER THEME
+%----------------------------------------------------------------------------------------
+
+% Inner themes change the styling of internal slide elements, for example: bullet points, blocks, bibliography entries, title pages, theorems, etc. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useinnertheme{default}
+%\useinnertheme{circles}
+%\useinnertheme{rectangles}
+\useinnertheme{rounded}
+%\useinnertheme{inmargin}
+
+%----------------------------------------------------------------------------------------
+%	SELECT OUTER THEME
+%----------------------------------------------------------------------------------------
+
+% Outer themes change the overall layout of slides, such as: header and footer lines, sidebars and slide titles. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useoutertheme{default}
+%\useoutertheme{infolines}
+%\useoutertheme{miniframes}
+%\useoutertheme{smoothbars}
+%\useoutertheme{sidebar}
+%\useoutertheme{split}
+%\useoutertheme{shadow}
+%\useoutertheme{tree}
+\useoutertheme{smoothtree}
+
+%\setbeamertemplate{footline} % Uncomment this line to remove the footer line in all slides
+\setbeamertemplate{footline}[page number] % Uncomment this line to replace the footer line in all slides with a simple slide count
+
+\setbeamertemplate{navigation symbols}{} % Uncomment this line to remove the navigation symbols from the bottom of all slides
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title[Dominio NR congruenze]{Dominio non relazionale per l'analisi delle congruenze} % The short title in the optional parameter appears at the bottom of every slide, the full title in the main parameter is only on the title page
+
+%\subtitle{Optional Subtitle} % Presentation subtitle, remove this command if a subtitle isn't required
+
+\author[Arianna Cipolla]{Arianna Cipolla} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
+
+\institute[UNIPR]{Università degli studi di Parma \\ \smallskip \textit{arianna.cipolla@studenti.unipr.it}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
+
+\date{Seminario Linguaggi, Interpreti e Compilatori \\ Dicembre 13, 2024} % Presentation date or conference/meeting name, the optional parameter can contain a shortened version to appear on the bottom of every slide, while the required parameter value is output to the title slide
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+	\titlepage % Output the title slide, automatically created using the text entered in the PRESENTATION INFORMATION block above
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS SLIDE
+%----------------------------------------------------------------------------------------
+
+% The table of contents outputs the sections and subsections that appear in your presentation, specified with the standard \section and \subsection commands. You may either display all sections and subsections on one slide with \tableofcontents, or display each section at a time on subsequent slides with \tableofcontents[pausesections]. The latter is useful if you want to step through each section and mention what you will discuss.
+
+\begin{frame}
+	\frametitle{Indice} % Slide title, remove this command for no title
+	
+	\tableofcontents % Output the table of contents (all sections on one slide)
+	%\tableofcontents[pausesections] % Output the table of contents (break sections up across separate slides)
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%----------------------------------------------------------------------------------------
+
+\section{Analisi Statica} % Sections are added in order to organize your presentation into discrete blocks, all sections and subsections are automatically output to the table of contents as an overview of the talk but NOT output in the presentation as separate slides
+
+%------------------------------------------------
+
+\subsection{Definizione}
+
+\begin{frame}
+	\frametitle{Analisi Statica - Definizione}
+	\begin{center}
+		\begin{tikzpicture}
+			% Contorno del compilatore
+			\node at (5,0.5) {Analizzatore};
+			\draw[rounded corners, fill=red!10] (0, 0) rectangle (10,-2);
+
+    		% Stili per gli elementi
+    		\tikzstyle{box} = [rectangle, draw, fill=blue!20, rounded corners, minimum height=3em]
+    		\tikzstyle{arrow} = [thick,->,>=stealth]
+
+			% Elementi dello schema
+			\node (codice) at (1.5, -1) {codice};
+			\node[box] (programma) at (5,-1) {programma};
+			\node (info) at (8.5,-1) {informazioni};
+
+			% Frecce
+			\draw[arrow] (codice) -- (programma);
+			\draw[arrow] (programma) -- (info);
+
+	\end{tikzpicture}
+\end{center}
+	
+
+\end{frame}
+
+%------------------------------------------------
+\subsection{Esempio}
+
+\begin{frame}[fragile]
+    \frametitle{Esempio}
+	
+	\begin{columns}[t] 
+		\hspace{1em}
+		\begin{column}{0.45\textwidth} 
+			\begin{lstlisting}
+int mod(int A, int B) { 
+    int Q = 0;
+    int R = A;
+    while (R >= B) {
+        R = R - B;
+        Q = Q + 1;
+    }
+    return R;
+}
+
+            \end{lstlisting}
+		\end{column}	
+		\hspace{2em}
+		\vrule width 0.5pt
+		\hspace{1em}	
+		\begin{column}{0.5\textwidth} 
+			\begin{ttfamily}
+				\\
+				\textcolor{gray!70}{\scriptsize /* Stato concreto */}\\
+				A = 10; B = 3; \\
+				Q = 3; R = 1;
+				\smallskip \\
+		
+				\textcolor{gray!70}{\scriptsize /* Dominio dei segni */}\\
+				A $\geq$ 0; B $\geq$ 0; \\ 
+				Q $\geq$ 0; R = $\top$;
+				\smallskip	 \\
+		
+				\textcolor{gray!70}{\scriptsize /* Dominio dei segni relazionale */}\\
+				A $\geq$ 0; B $\geq$ 0; \\ 
+				Q $\geq$ 0; 0 $\leq$ R $<$ B;
+				\end{ttfamily}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+%------------------------------------------------
+
+\subsection{Galois}
+
+\begin{frame}
+	\frametitle{Connessioni di Galois}
+	Una connessione di Galois è una relazione tra due domini definita da due funzioni:
+	\begin{itemize}
+		\item $\gamma_b$: mappa concretizzazione
+		\item $\alpha_b$: mappa astrazione
+	\end{itemize}
+	\begin{center}
+		\begin{tikzpicture}
+			\tikzstyle{point} = [circle, draw, fill=black, minimum size=0.1cm, inner sep=0cm]
+			\tikzstyle{arrow} = [thick,->,>=stealth]
+		
+			% Prima ellisse
+			\draw[fill=red!10] (-2,0) ellipse (1cm and 1.5cm);
+			\node at (-2, -2){C}; % Etichetta per C
+			\node [point] (puntoC) at (-2,-1){}; % Nodo per la prima ellisse
+			\node [point] (puntoC1) at (-2,1){};
+			\node at (-2.2,-1){\tiny c};
+			\node at (-2.3,1){\tiny $\gamma(a)$};
+
+			% Seconda ellisse
+			\draw[fill=green!10] (2,0) ellipse (1cm and 1.5cm);
+			\node [point] (puntoA) at (2,-1){}; % Nodo per la seconda ellisse
+			\node [point] (puntoA1) at (2,1){};
+			\node at (2, -2){A}; % Etichetta per A
+			\node at (2.3,-1){\tiny $\alpha(c)$};
+			\node at (2.2,1){\tiny a};
+
+			\draw[arrow] (puntoC) -- (puntoA);
+			\node at (0,-1.3){\small $\alpha$};
+			
+			\draw[arrow] (puntoA1) -- (puntoC1);
+			\node at (0,1.3){\small $\gamma$};
+
+			\foreach \y in {-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8} { 
+       		\node at (-2, \y) [circle, draw, fill=black, minimum size=0.03cm, inner sep=0cm] {}; % Puntino piccolo
+    }
+			\node at (-2.3,0){\footnotesize $\leq$};
+
+	\foreach \y in {-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8} { 
+       		\node at (2, \y) [circle, draw, fill=black, minimum size=0.03cm, inner sep=0cm] {}; % Puntino piccolo
+    }
+			\node at (2.3,0){\footnotesize $\sqsubseteq$};
+
+		\end{tikzpicture}
+			
+	\end{center}
+\end{frame}
+
+%------------------------------------------------
+
+\section{Dominio delle congruenze}
+
+\subsection{Definizione}
+
+\begin{frame}
+	\frametitle{Dominio delle congruenze - Definizone}
+	L'insieme delle congruenze viene definito come:
+	$$X \in a\mathbb{Z}+b$$
+	dove:
+	\begin{itemize}
+		\item $a$ è un numero intero che rappresenta il modulo
+		\item $\mathbb{Z}$ è l'insieme dei numeri interi
+		\item $b$ è un numero intero che rappresenta il resto
+	\end{itemize}
+	dunque $X$ è l'insieme di tutti i numeri interi che divisi per $a$ danno resto $b$.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Astrazione}
+	L'insieme dei valori astratti viene definito come:
+	$$\mathcal{B}^{\sharp} = \{(a\mathbb{Z}+b) \; | \; a \in \mathbb{N}, \; b \in \mathbb{Z}\} \; \cup \; \{\bot_b^{\sharp}\}$$
+	\begin{itemize}
+		\item $1\mathbb{Z}+0$ insieme più grande
+		\item $0\mathbb{Z}+c$ singolo intero c
+		\item $\bot_b^{\sharp}$ insieme vuoto
+	\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Reticolo}
+	\begin{definition}
+		Un reticolo è una struttura matematica che organizza gli oggetti in base a un criterio di ordine.
+	\end{definition}
+	\smallskip
+	Il reticolo completo viene formato come $(\mathbb{N}, \mid, \lor, \land,1,0)$ dove:
+	\begin{itemize}
+		\item $\mathbb{N}$ è l'insieme dei numeri interi positivi
+		\item $\mid$ è la relazione di ordine parziale "divide"
+		\item $\lor$ l'operazione di join espande cercando il minimo che contiene entrambi (mcm)
+		\item $\land$ l'operazione di meet restringe cercando il massimo che è contenuto in entrambi (MCD)
+		\item $1$ è l'infimo, il divisore comune più piccolo di tutti i numeri
+		\item $0$ è il supremo, è il multiplo comune più grande di tutti i numeri
+	\end{itemize} 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Reticolo}
+	Nella forma astratta il reticolo viene definito come: $$(\mathcal{B}^{\sharp}, \sqsubseteq_b^{\sharp}, \sqcup_b^{\sharp}, \sqcap_b^{\sharp}, \bot_b^{\sharp}, (1\mathbb{Z}+0))$$ 
+	dove:
+	\begin{itemize}
+		\item $\mathcal{B}^{\sharp} = \{(a\mathbb{Z}+b) \; | \; a \in \mathbb{N}, \; b \in \mathbb{Z}\} \; \cup \; \{\bot_b^{\sharp}\}$
+		\item $(a\mathbb{Z} + b) \sqsubseteq_b^{\sharp} (a'\mathbb{Z}+b') \Longleftrightarrow a'|a \; \text{e} \; b\equiv b'[a']$
+		\item $(a\mathbb{Z} + b) \sqcup_b^{\sharp} (a'\mathbb{Z}+b') = (a \wedge a' \wedge |b - b'|)\mathbb{Z}+b$
+		\item $(a\mathbb{Z} + b) \sqcap_b^{\sharp} (a'\mathbb{Z}+b') = \begin{cases} (a \vee a')\mathbb{Z} + b'' & \text{if} \; b \equiv b' [a \vee a'] \\ \bot_b^{\sharp} & \text{altrimenti}\end{cases}$ \\ \smallskip\scriptsize dove $b''$ è un valore congruente sia a $b$ che a $b'$ mod($a \vee a'$)
+	\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\subsection{Connessioni di Galois}
+
+\begin{frame}
+	\frametitle{Connessioni di Galois}
+	Possiamo costruire una connessione di Galois come segue:
+	$$\gamma_b(X_b^{\sharp}) = \begin{cases}
+\{ak + b \; | \; k \in \mathbb{Z} \} & \text{se} \; X_b^{\sharp} = (a\mathbb{Z}+b) \\
+\emptyset & \text{se} \; X_b^{\sharp} = \bot_b^{\sharp}
+\end{cases}
+$$
+Per garantire che ogni insieme concreto abbia una sola rappresentazione astratta in $a\mathbb{Z}+b$ assumiamo che:
+\begin{itemize}
+	\item $a = 0$ \\ \textit{oppure}
+	\item $0 \leq b < a$
+\end{itemize} 
+\bigskip
+$$\alpha_b(C) = \sqcup_{c \in C}^{\sharp}(0\mathbb{Z}+c)$$ 
+Il join combina i numeri di C per ottenere un rappresentante astratto unico che include tutti i numeri di C in modo compatto.
+\end{frame}
+
+%------------------------------------------------
+\subsection{Operazioni}
+
+\begin{frame}
+	\frametitle{Operazioni Astratte}
+	\begin{itemize}
+		\item Intersezione astratta coincide con il $\sqcap_b^{\sharp}$ (meet) ed è esatta non perdendo precisione
+		\item Unione astratta coincide con il $\sqcup_b^{\sharp}$ (join) ed è ottimale, il risultato è il più preciso possibile
+		\item Le operazioni aritmetiche ($+, -, *$) astratte corrispondono alle loro controparti concrete e sono ottimali
+		\item L'operazione di divisione ($\div$) nel caso del singleton è precisa, mentre in tutti gli altri casi restituisce ua rappresentazione meno precisa
+		\item L'operatore $\overleftarrow{\leq 0_b^{\sharp}}$ identifica $[-\infty, 0]_b^{\sharp} = 1\mathbb{Z}+0$ e nel caso in cui $X^{\sharp} = 0\mathbb{Z}+c$ (con $c > 0$) ritorna $\bot_b^{\sharp}$
+	\end{itemize}
+	
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Gestione del dominio}
+	Il dominio non relazionale delle congruenze ha un'altezza infinita, di conseguenza quando si vanno a formare delle catene di insiemi si può crescere o decrescere infinitamente. \\
+	\begin{itemize}
+		\item Le \textbf{catene strettamente crescenti} sono limitate dalla natura decrescente del modulo $a$ limitato ad 1
+		\begin{itemize}
+			\item come widening (ampliamento) viene utilizzato il meet ($\bigtriangledown_b = \sqcup_b^{\sharp}$)
+		\end{itemize}
+		\item Le \textbf{catene strettamente decrescenti} sono potenzialmente infinite ($\mathbb{Z}, 2\mathbb{Z}, 4\mathbb{Z}, \dots$) quindi è utile definire un operatore di restringimento ($\bigtriangleup_b$)
+		\begin{itemize}
+			\item $(a\mathbb{Z}+b) \; \bigtriangleup_b \; (a'\mathbb{Z} + b') = \begin{cases}
+				a'\mathbb{Z}+b' & \text{se} \; a = 1 \\
+				a\mathbb{Z}+b & \text{altrimenti}
+				\end{cases}$ \\ Esempi: \\ $\mathbb{Z} \bigtriangleup_b 2\mathbb{Z}$ prendiamo $2\mathbb{Z}$ \\ $2\mathbb{Z} \bigtriangleup_b 4\mathbb{Z}$ prendiamo $2\mathbb{Z}$
+		\end{itemize}
+	\end{itemize}
+
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Esempio Concreto}
+
+\begin{frame}[fragile]
+    \frametitle{Esempio di codice}
+	\begin{center}
+	\begin{columns}[t] 
+		\hspace{3em}
+		\begin{column}{0.45\textwidth} 
+			\begin{lstlisting}
+int x = 0, y = 2;
+while (x < 40) {
+    x = x + 2;
+    if (x < 5)
+        //y = 18k + 2
+        y = y + 18;
+    else if (x > 8)
+        //y = -30k + 2
+        y = y - 30;
+}
+
+            \end{lstlisting}
+		\end{column}	
+		\hspace{2em}
+		\vrule width 0.5pt
+		\hspace{1em}	
+		\begin{column}{0.5\textwidth} 
+			\begin{ttfamily}
+				\\
+				\small $x \in 0\mathbb{Z}+0$ \\
+				\small $y \in 0\mathbb{Z}+2$\\
+				\bigskip
+				\textcolor{gray!70}{\scriptsize /* Iterazioni */}\\
+				\scriptsize
+				1: x = 0; y = 2;\\
+				2: x = 2; y = 20;\\
+				3: x = 4; y = 38;\\
+				4: x = 6; y = 8;\\
+				5: x = 8; y = -22;\\
+				6: x = 10; y = -52;\\
+				\bigskip
+				\small $x \in 2\mathbb{Z}+0$ \\
+				\small $y \in 6\mathbb{Z}+2 =$ \\ $ =\{\dots, -22, \dots, 2, 8, 14, 20, \dots\}$
+				\end{ttfamily}
+		\end{column}
+	\end{columns}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+\subsection{Utilità}
+
+\begin{frame} 
+	\frametitle{Utilizzo}
+
+	\textbf{Indirizzi di memoria}: molti seguono una periodicità o una struttura regolare, un insieme di essi è \textbf{congruente} se segue la relazione $$\text{Indirizzo} \equiv b(mod \; a)$$
+	\\Esempio: Indirizzi = $32k + 4$
+	\begin{itemize}
+		\item gli indirizzi accedono sempre al $\ang{4}$ byte di una riga di cache da 32 byte
+		\item sono congruenti modulo $a = 32$, con offset $b = 4$.
+	\end{itemize}
+	
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGMENTS SLIDE
+%----------------------------------------------------------------------------------------
+\section{Bibliografia}
+\begin{frame}
+	\frametitle{Bibliografia}
+	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below, you may need to use multiple columns and/or reduce the font size further if you have many references
+		\footnotesize % Reduce the font size in the bibliography
+		
+		\bibitem[Miné, 2017]{p1}
+			Antoine Miné (2017)
+			\newblock Tutorial on Static Inference of Numeric Invariants by
+			Abstract Interpretation
+			
+		\bibitem[Larsen, Witchel, Amarasinghe 2002]{p2}
+			Samuel Larsen, Emmett Witchel and Saman Amarasinghe (2002)
+			\newblock Increasing and Detecting Memory Address Congruence
+	\end{thebibliography}
+	
+\end{frame}
+
+\end{document} 

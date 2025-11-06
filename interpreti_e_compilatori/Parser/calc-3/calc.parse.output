@@ -1,0 +1,272 @@
+Grammar
+
+    0 $accept: calclist $end
+
+    1 calclist: /* empty */
+    2         | calclist expr EOL
+    3         | calclist EOL
+
+    4 expr: term
+    5     | expr '+' term
+    6     | expr '-' term
+
+    7 term: factor
+    8     | term '*' factor
+    9     | term '/' factor
+
+   10 factor: NUMBER
+   11       | '(' expr ')'
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'(' (40) 11
+')' (41) 11
+'*' (42) 8
+'+' (43) 5
+'-' (45) 6
+'/' (47) 9
+error (256)
+NUMBER (258) 10
+EOL (259) 2 3
+
+
+Nonterminals, with rules where they appear
+
+$accept (11)
+    on left: 0
+calclist (12)
+    on left: 1 2 3, on right: 0 2 3
+expr (13)
+    on left: 4 5 6, on right: 2 5 6 11
+term (14)
+    on left: 7 8 9, on right: 4 5 6 8 9
+factor (15)
+    on left: 10 11, on right: 7 8 9
+
+
+state 0
+
+    0 $accept: . calclist $end
+    1 calclist: .
+    2         | . calclist expr EOL
+    3         | . calclist EOL
+
+    $default  reduce using rule 1 (calclist)
+
+    calclist  go to state 1
+
+
+state 1
+
+    0 $accept: calclist . $end
+    2 calclist: calclist . expr EOL
+    3         | calclist . EOL
+    4 expr: . term
+    5     | . expr '+' term
+    6     | . expr '-' term
+    7 term: . factor
+    8     | . term '*' factor
+    9     | . term '/' factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+
+    $end    shift, and go to state 2
+    NUMBER  shift, and go to state 3
+    EOL     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    expr    go to state 6
+    term    go to state 7
+    factor  go to state 8
+
+
+state 2
+
+    0 $accept: calclist $end .
+
+    $default  accept
+
+
+state 3
+
+   10 factor: NUMBER .
+
+    $default  reduce using rule 10 (factor)
+
+
+state 4
+
+    3 calclist: calclist EOL .
+
+    $default  reduce using rule 3 (calclist)
+
+
+state 5
+
+    4 expr: . term
+    5     | . expr '+' term
+    6     | . expr '-' term
+    7 term: . factor
+    8     | . term '*' factor
+    9     | . term '/' factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+   11       | '(' . expr ')'
+
+    NUMBER  shift, and go to state 3
+    '('     shift, and go to state 5
+
+    expr    go to state 9
+    term    go to state 7
+    factor  go to state 8
+
+
+state 6
+
+    2 calclist: calclist expr . EOL
+    5 expr: expr . '+' term
+    6     | expr . '-' term
+
+    EOL  shift, and go to state 10
+    '+'  shift, and go to state 11
+    '-'  shift, and go to state 12
+
+
+state 7
+
+    4 expr: term .  [EOL, '+', '-', ')']
+    8 term: term . '*' factor
+    9     | term . '/' factor
+
+    '*'  shift, and go to state 13
+    '/'  shift, and go to state 14
+
+    $default  reduce using rule 4 (expr)
+
+
+state 8
+
+    7 term: factor .
+
+    $default  reduce using rule 7 (term)
+
+
+state 9
+
+    5 expr: expr . '+' term
+    6     | expr . '-' term
+   11 factor: '(' expr . ')'
+
+    '+'  shift, and go to state 11
+    '-'  shift, and go to state 12
+    ')'  shift, and go to state 15
+
+
+state 10
+
+    2 calclist: calclist expr EOL .
+
+    $default  reduce using rule 2 (calclist)
+
+
+state 11
+
+    5 expr: expr '+' . term
+    7 term: . factor
+    8     | . term '*' factor
+    9     | . term '/' factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+
+    NUMBER  shift, and go to state 3
+    '('     shift, and go to state 5
+
+    term    go to state 16
+    factor  go to state 8
+
+
+state 12
+
+    6 expr: expr '-' . term
+    7 term: . factor
+    8     | . term '*' factor
+    9     | . term '/' factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+
+    NUMBER  shift, and go to state 3
+    '('     shift, and go to state 5
+
+    term    go to state 17
+    factor  go to state 8
+
+
+state 13
+
+    8 term: term '*' . factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+
+    NUMBER  shift, and go to state 3
+    '('     shift, and go to state 5
+
+    factor  go to state 18
+
+
+state 14
+
+    9 term: term '/' . factor
+   10 factor: . NUMBER
+   11       | . '(' expr ')'
+
+    NUMBER  shift, and go to state 3
+    '('     shift, and go to state 5
+
+    factor  go to state 19
+
+
+state 15
+
+   11 factor: '(' expr ')' .
+
+    $default  reduce using rule 11 (factor)
+
+
+state 16
+
+    5 expr: expr '+' term .  [EOL, '+', '-', ')']
+    8 term: term . '*' factor
+    9     | term . '/' factor
+
+    '*'  shift, and go to state 13
+    '/'  shift, and go to state 14
+
+    $default  reduce using rule 5 (expr)
+
+
+state 17
+
+    6 expr: expr '-' term .  [EOL, '+', '-', ')']
+    8 term: term . '*' factor
+    9     | term . '/' factor
+
+    '*'  shift, and go to state 13
+    '/'  shift, and go to state 14
+
+    $default  reduce using rule 6 (expr)
+
+
+state 18
+
+    8 term: term '*' factor .
+
+    $default  reduce using rule 8 (term)
+
+
+state 19
+
+    9 term: term '/' factor .
+
+    $default  reduce using rule 9 (term)
