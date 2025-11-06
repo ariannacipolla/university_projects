@@ -82,7 +82,7 @@ Dopo aver scaricato i dati necessari, puoi lanciare il tuo script di addestramen
 python main.py
 ```
 
-**Attenzione alle Risorse:**
+**Attenzione alle Risorse!!!**
 L'addestramento di modelli su dataset di grandi dimensioni può richiedere molte risorse (CPU/GPU, RAM e tempo).
 
 Per un test rapido o se le tue risorse sono limitate, valuta di modificare lo script `main.py` per usare un sottoinsieme di dati più piccolo. Ad esempio, prova a impostare le dimensioni dei sottoinsiemi (variabile `subset_size`) a valori ridotti come `[10, 50, 100]` per ottenere un risultato veloce prima di lanciare un addestramento completo.
