@@ -3,3 +3,6 @@
 
 # Cartella di configurazione di Obsidian
 .obsidian/
+
+# Cache di python
+__pycache__/
