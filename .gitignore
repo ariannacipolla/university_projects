@@ -6,3 +6,16 @@
 
 # Cache di python
 __pycache__/
+
+# File ausiliari e di log di LaTeX
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.snm
+*.nav
+*.out
+*.vrb
+*.synctex.gz
+*.toc
+*.xdv
